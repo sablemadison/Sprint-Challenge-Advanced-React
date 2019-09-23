@@ -23,7 +23,15 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+I would use Class components to gain access to life cycle hooks, unique methods available to Class Components. Class components can have state so that would be anohter reason to use them.
+
 - [ ] Name three lifecycle methods and their purposes.
+contructor method: Used to load initial state data and anything that needs to be there when render is called. Good for receiving props and setting and translating them to state. Could be used to bing class methods to render function and vise versa
+	
+
+render method. Required for all Class Components
+The lifeblood of a component; how things work. When triggered, UI gets shown on DOM. Involved in both mounting and updating phase. State and render come hand in hand
+
 - [ ] What is the purpose of a custom hook?
 - [ ] Why is it important to test our apps?
 
