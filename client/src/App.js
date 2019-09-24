@@ -16,7 +16,7 @@ axios
     playerData: res.data
   })
 })
-.catch(err => console.log('yikes:', err))
+.catch(err => console.log('yikes!!:', err))
  }
   render() {
     console.log(this.state.playerData)
